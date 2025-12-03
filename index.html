@@ -190,13 +190,16 @@
       <h2>Whitepaper</h2>
       <!-- Кнопка для скачивания -->
       <a href="JKRX_Whitepaper.pdf" class="neon" target="_blank">Скачать Whitepaper</a>
-      <!-- Встроенный просмотр PDF -->
-      <iframe src="JKRX_Whitepaper.pdf" class="pdf-viewer"></iframe>
     </section>
   </div>
 
   <footer>
     © 2025 JKRX — All rights reserved
   </footer>
+   <script>
+    document.querySelectorAll('.card').forEach((c, i) => {
+      c.style.animation = `fadeIn 1s ease ${0.3 + i * 0.2}s forwards`;
+    });
+  </script>
 </body>
 </html>
